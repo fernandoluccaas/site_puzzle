@@ -1,0 +1,111 @@
+/* Estilos para o site Puzzle Ceuma */
+
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    color: #3d0596;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #36028a;
+}
+
+/* Estilos para o cabeçalho */
+.navbar {
+    background-color: #007bff !important;
+}
+
+/* Estilos para o cabeçalho */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7a3fe1; /* Cor roxa para texto da navbar */
+}
+
+.navbar-icon {
+    width: 10px; /* Tamanho desejado para o ícone */
+    margin-right: 5px; /* Espaçamento à direita do ícone */
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #7a3fe1; /* Cor roxa para texto dos links da navbar */
+}
+
+/* Estilos para seções */
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #007bff;
+}
+
+/* Estilos para benefícios */
+#benefits {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+/* Estilos para screenshots */
+#screenshots {
+    background-color: #f8f9fa;
+}
+
+.img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para o rodapé */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Estilos para o botão personalizado */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+h1 {
+    color: #ffffff;
+}
